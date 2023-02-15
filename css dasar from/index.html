@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <style>
+        .satu {
+            color: cadetblue;
+        }
+        input[type=submit]{
+          width: 10%;
+          background-color: red;
+          color: aliceblue;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        input[type=submit]:hover {
+             background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">
+     <h1>Form Input Data Siswa</h1>
+    </div>
+    <br>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="username">
+    <br>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="--pilih jurusan--">
+      <select name="pilih jurusan" id="pilih jurusan">
+        <option value="pilih jurusan">RPL</option>
+        <option value="pilih jurusan">TKJ</option>
+        <option value="pilih jurusan">TB</option>
+        <option value="pilih jurusan">TSM</option>
+        <option value="pilih jurusan">TKR</option>
+      </select>
+    <br>
+    <br>
+     <textarea name="Alamat" id="Alamat" cols="30" rows="10">Masukan Alamat Lengkap</textarea>
+    <br>
+    <br>
+     <input type="submit" value="SIMPAN">
+</body>
+</html>
